@@ -1,4 +1,4 @@
-# Ryle Peter May
+
 ### Applications Developer
 
 📞 +27 62 051 5302  | ✉️ 230333907@mycput.ac.za | 📍 27 Riverside St, Klein Nederburg, Paarl | 🔗 https://github.com/Ryle-Peter-May 
