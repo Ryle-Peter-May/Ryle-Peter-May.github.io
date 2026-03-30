@@ -59,3 +59,8 @@ Being proficient in multiple programming languages and being able to create full
 | **Organisation** | Cape Peninsula University of Technology | Cape Peninsula University of Technology |
 | **Contact** | 078 409 5208 | 082 942 6613 |
 | **Email** | shongwet@cput.ac.za | Mathivhadt@cput.ac.za |
+
+---
+
+## 🎥Link To Mock Interview
+https://drive.google.com/file/d/1Z-_myuiZXBcW36Nxzp8nnIi3jEVqeAUZ/view?usp=sharing
