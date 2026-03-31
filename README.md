@@ -66,7 +66,7 @@ Being proficient in multiple programming languages and being able to create full
 <iframe
 width="800"
 height="450"
-src="https://youtu.be/9d5OZkz9NZM"
+src="https://youtu.be/embed/9d5OZkz9NZM"
 title="Mock Interview"
 frameborder="0"
 allowfullscreen>
