@@ -63,5 +63,9 @@ Being proficient in multiple programming languages and being able to create full
 ---
 
 ## 🎥Link To Mock Interview
-<iframe src="https://drive.google.com/file/d/1Z-_myuiZXBcW36Nxzp8nnIi3jEVqeAUZ/preview" width="640" height="480"></iframe>
-
+<iframe src="https://drive.google.com/file/d/1Z-_myuiZXBcW36Nxzp8nnIi3jEVqeAUZ/preview"
+  width="800"
+  height="450"
+  frameborder="0"
+  allowfullscreen
+  ></iframe>
