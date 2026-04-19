@@ -34,10 +34,13 @@ Being proficient in multiple programming languages and being able to create full
 - Created a website to raise awareness for a sports-focused NGO supporting underprivileged youth through resources, training and mentorship.
 - Applied first-year skills in design principles, project management and web development (HTML, CSS, JavaScript).
 
+
 ### CPUT Stays | 2025 *(Second Year)*
 - Created a student accommodation website to address the housing shortage at the beginning of the year.
 - Built it as a dynamic, database-driven website using PHP and MySQL, transitioning from static brochure-style websites to an interactive system.
-
+#### Role
+- Backend Development
+  
 ---
 
 ## 🎓Education
