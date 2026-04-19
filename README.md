@@ -31,15 +31,36 @@ Being proficient in multiple programming languages and being able to create full
 ## 💾Projects
 
 ### NGO – Future Champions | 2024 *(First Year)*
+link: https://ngo-future-champions-jblmgpe62-ryle-peter-mays-projects.vercel.app/
 - Created a website to raise awareness for a sports-focused NGO supporting underprivileged youth through resources, training and mentorship.
 - Applied first-year skills in design principles, project management and web development (HTML, CSS, JavaScript).
 
+<table>
+  <tr>
+    <td><img src="Screenshot 1.png" width="300"></td>
+    <td><img src="Screenshot 2.png" width="300"></td>
+  </tr>
+  <tr>
+     <td colspan="2" align="center">
+      <img src="Screenshot 3.png" width="300"/>
+    </td>
+  </tr>
+</table>
+
 
 ### CPUT Stays | 2025 *(Second Year)*
+link: http://cput-stays.42web.io/
 - Created a student accommodation website to address the housing shortage at the beginning of the year.
 - Built it as a dynamic, database-driven website using PHP and MySQL, transitioning from static brochure-style websites to an interactive system.
 #### Role
 - Backend Development
+  
+<table>
+  <tr>
+    <td><img src="Screenshot 4.png" width="300"></td>
+    <td><img src="Screenshot 5.png" width="300"></td>
+  </tr>
+</table>
   
 ---
 
