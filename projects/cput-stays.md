@@ -14,6 +14,6 @@ nav_order: 2
 
 **Role:** Backend Development
 
-| | |
+
 |---|---|
 | ![Screenshot 4]({{ site.baseurl }}/assets/images/Screenshot-4.png) | ![Screenshot 5]({{ site.baseurl }}/assets/images/Screenshot-5.png) |

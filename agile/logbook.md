@@ -38,7 +38,7 @@ The log covers the planning weeks before development and the first three sprints
 | Sun 19 Jul | Project requirements | Decide on tech stack | Slow network; difficult to communicate online |
 | Mon 20 Jul | Nothing | Decide on tech stack | Slow network; difficult to communicate online |
 
-### Week 2: 21 to 24 July (Sprint 1)
+### Week 2: 21 to 24 July
 
 | Date | Completed since last stand-up | Planned next | Impediments |
 |---|---|---|---|
@@ -47,7 +47,7 @@ The log covers the planning weeks before development and the first three sprints
 | Thu 23 Jul | Researched building mobile apps with our chosen tech stack | Update wireframes and start prototyping | None |
 | Fri 24 Jul | Updated wireframes | Start setting up project structure | None |
 
-### Week 3: 28 to 31 July (Sprint 2)
+### Week 3: 28 to 31 July
 
 | Date | Completed since last stand-up | Planned next | Impediments |
 |---|---|---|---|
@@ -56,7 +56,7 @@ The log covers the planning weeks before development and the first three sprints
 | Thu 30 Jul | Completed login screen | Complete home screen | None |
 | Fri 31 Jul | Home screen for frontend | Complete the registration process screen | None |
 
-### Week 4: 4 to 7 August (Sprint 3)
+### Week 4: 4 to 7 August
 
 | Date | Completed since last stand-up | Planned next | Impediments |
 |---|---|---|---|
@@ -64,6 +64,24 @@ The log covers the planning weeks before development and the first three sprints
 | Wed 5 Aug | Added sprint board to Trello | Complete brand guide | None |
 | Thu 6 Aug | Nothing | Add frontend to GitHub Pages | None |
 | Fri 7 Aug | Attempted to add screens to GitHub Pages | Fix issues with adding pages to GitHub Pages | Error with adding pages to GitHub Pages |
+
+### Week 5: 11 to 14 August
+
+| Date | Completed since last stand-up | Planned next | Impediments |
+|---|---|---|---|
+| Tue 11 Aug | Completed the Registration process screen | Complete the Frontend for Security Guard | None |
+| Wed 12 Aug | Complete the Frontend for Security Guard | Setup Supabase Database | None |
+| Thu 13 Aug | Completed Supabase setup | Complete tables for database | None |
+| Fri 14 Aug | Completed tables for database | Adding RLS Policies to the tables | None |
+
+### Week 6: 18 to 21 August
+
+| Date | Completed since last stand-up | Planned next | Impediments |
+|---|---|---|---|
+| Tue 18 Aug | Adding RLS Policies to the tables | Allow users to view details of a resolved incident | None |
+| Wed 19 Aug | Allow users to view details of a resolved incident | Allow guards to receive push notifcaions | None |
+| Thu 20 Aug | Allow guards to receive push notifcaions | Cancel a false alarm before the guard departs | None |
+| Fri 21 Aug | Cancel a false alarm before the guard departs | Rate the guard's response after an incident is resolved | None |
 
 ### Impediments logged
 
@@ -73,12 +91,11 @@ The log covers the planning weeks before development and the first three sprints
 | 28 Jul | Time management due to workload from other modules | Frontend development started the next day (29 Jul) |
 | 7 Aug | Error adding pages to GitHub Pages | Carried into the next stand-up as the plan to fix |
 
-*Days with nothing completed: 18 July, 20 July and 6 August.*
-
-![Logbook pages]({{ site.baseurl }}/assets/images/logbook.png)
 
 ## Reflection
 
-*Guide: What did keeping a logbook show you about how the project actually went? Give one example of an impediment you acted on. Your log shows a slow network (19 to 20 July), module workload (28 July) and the GitHub Pages error (7 August), so you could pick one and explain what you changed.*
+The log shows how the project actually went, which didn't go according to the actual plan. The first week was mostly presentation and requirements work, including two days where I recorded that nothing was done. From 11 August the log turns to building: the security guard frontend, then setting up Supabase, the database tables and row level security policies.
 
-*[Write your reflection here.]*
+The impediments were small. A slow network made it hard to communicate online on 19 and 20 July, module workload hurt my time management on 28 July, and on 7 August I could not add the screens to GitHub Pages. I noticed that I recorded each problem but not always how it was resolved: the GitHub Pages error is last mentioned on 7 August, and by 11 August the plan had moved on. I should have written down the fix so the team could learn from it.
+
+The log also captured the biggest technical decision of the project. We had planned a Java backend, and the entries from 12 to 14 August show the switch to Supabase and the database being built there.

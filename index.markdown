@@ -11,7 +11,7 @@ permalink: /
 Applications Developer
 {: .fs-6 .fw-300 }
 
-📞 +number · ✉️ email · 📍 address · 🔗 [github.com/Ryle-Peter-May](https://github.com/Ryle-Peter-May)
+📞 +number · ✉️ email · 📍 address · 🔗 [github.com/ryle-198](https://github.com/ryle-198)
 
 [View my projects]({{ site.baseurl }}/projects/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Agile project evidence]({{ site.baseurl }}/agile/){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -60,7 +60,7 @@ Being proficient in multiple programming languages and being able to create full
 
 | | Reference 1 | Reference 2 |
 |---|---|---|
-| **Name** | name | name |
+| **Name** | Thulani Shongwe | Mathivha Dakalo |
 | **Organisation** | Cape Peninsula University of Technology | Cape Peninsula University of Technology |
-| **Contact** | number | number |
-| **Email** | email@cput.ac.za | email@cput.ac.za |
+| **Contact** | 078 409 5208 | 082 942 6613 |
+| **Email** | shongwet@cput.ac.za | Mathivhadt@cput.ac.za |

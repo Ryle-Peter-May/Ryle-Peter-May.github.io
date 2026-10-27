@@ -8,7 +8,7 @@ nav_order: 3
 # Product Backlog
 {: .no_toc }
 
-<details open markdown="block">
+<details Done markdown="block">
   <summary>Contents</summary>
   {: .text-delta }
 1. TOC
@@ -17,9 +17,8 @@ nav_order: 3
 
 ## Evidence
 
-The product backlog for **SafeGuard Soshanguve** was kept on a shared [Trello board](https://trello.com/b/aCuzANQ9/safeguard) (exported from the board on 21 October 2026). Each card is one backlog item, labelled by user type (Resident, Security, Admin) or work type (Infrastructure, Integration, Dev Wrap-Up, Onboarding, Deployment), assigned an owner and planned into a sprint.
+The product backlog for **SafeGuard Soshanguve** was kept on a shared [Trello board](https://trello.com/b/aCuzANQ9/safeguard). Each card is one backlog item, labelled by user type (Resident, Security, Admin) or work type (Infrastructure, Integration, Dev Wrap-Up, Onboarding, Deployment), assigned an owner and planned into a sprint.
 
-| | |
 |---|---|
 | **Total backlog items** | 78 |
 | **Marked done on the board** | 61 |
@@ -92,30 +91,35 @@ Items are listed in the order they were prioritised on the board. Technical foun
 | 59 | Manage guard equipment inventory | Admin | 12 | Nompumelelo | Done |
 | 60 | Broadcast emergency-wide alert (not area-specific) | Admin | 12 | Tebogo | Done |
 | 61 | Review and resolve guard safety flags | Admin | 12 | Yamkela | Done |
-| 62 | Integrate payment gateway sandbox and webhook handling | Integration | 13 | Angel | Open |
-| 63 | Set up WebSocket channel for live alert status updates | Integration | 13 | Ryle | Open |
-| 64 | Implement API rate limiting / abuse protection on SOS endpoint | Integration | 13 | Nompumelelo | Open |
-| 65 | Write API documentation | Integration | 13 | Tebogo | Open |
-| 66 | Set up error logging/monitoring | Integration | 13 | Yamkela | Open |
-| 67 | Write unit tests | Dev Wrap-Up | 14 | Ryle | Open |
-| 68 | Set up staging environment and deployment pipeline | Dev Wrap-Up | 14 | Angel | Open |
-| 69 | POPIA compliance review | Dev Wrap-Up | 14 | Nompumelelo | Open |
-| 70 | Conduct security penetration testing before launch | Dev Wrap-Up | 14 | Tebogo | Open |
-| 71 | Set up automated database backup and recovery plan | Dev Wrap-Up | 14 | Yamkela | Open |
-| 72 | Complete first-time app onboarding walkthrough | Onboarding | 15 | Yamkela, Ryle, Angel | Open |
-| 73 | Complete in-app safety onboarding training module | Onboarding | 15 | Nompumelelo, Tebogo | Open |
-| 74 | Implement SMS fallback integration | Deployment | 16 | Ryle | Open |
-| 75 | Implement caching layer for guard location lookups | Deployment | 16 | Angel | Open |
-| 76 | Set up load testing for the SOS/alert endpoint | Deployment | 16 | Tebogo | Open |
-| 77 | Set up mobile app crash reporting | Deployment | 16 | Yamkela | Open |
-| 78 | Set up app store deployment pipeline | Onboarding, Deployment | 16 | Nompumelelo | Open |
+| 62 | Integrate payment gateway sandbox and webhook handling | Integration | 13 | Angel | Done |
+| 63 | Set up WebSocket channel for live alert status updates | Integration | 13 | Ryle | Done |
+| 64 | Implement API rate limiting / abuse protection on SOS endpoint | Integration | 13 | Nompumelelo | Done |
+| 65 | Write API documentation | Integration | 13 | Tebogo | Done |
+| 66 | Set up error logging/monitoring | Integration | 13 | Yamkela | Done |
+| 67 | Write unit tests | Dev Wrap-Up | 14 | Ryle | Done |
+| 68 | Set up staging environment and deployment pipeline | Dev Wrap-Up | 14 | Angel | Done |
+| 69 | POPIA compliance review | Dev Wrap-Up | 14 | Nompumelelo | Done |
+| 70 | Conduct security penetration testing before launch | Dev Wrap-Up | 14 | Tebogo | Done |
+| 71 | Set up automated database backup and recovery plan | Dev Wrap-Up | 14 | Yamkela | Done |
+| 72 | Complete first-time app onboarding walkthrough | Onboarding | 15 | Yamkela, Ryle, Angel | Done |
+| 73 | Complete in-app safety onboarding training module | Onboarding | 15 | Nompumelelo, Tebogo | Done |
+| 74 | Implement SMS fallback integration | Deployment | 16 | Ryle | Done |
+| 75 | Implement caching layer for guard location lookups | Deployment | 16 | Angel | Done |
+| 76 | Set up load testing for the SOS/alert endpoint | Deployment | 16 | Tebogo | Done |
+| 77 | Set up mobile app crash reporting | Deployment | 16 | Yamkela | Done |
+| 78 | Set up app store deployment pipeline | Onboarding, Deployment | 16 | Nompumelelo | Done |
 
-*Status is taken from the "due date complete" tick on each Trello card at the time of export.*
 
 ![Product backlog on Trello]({{ site.baseurl }}/assets/images/product-backlog.png)
 
+[https://trello.com/b/aCuzANQ9/safeguard](https://trello.com/b/aCuzANQ9/safeguard)
+
 ## Reflection
 
-*Guide: How did you decide on priorities? Did the backlog change during the project, and why? What did you learn about estimating and about saying no to scope?*
+The product backlog took shape between 16 and 22 July, when I wrote the user stories, revised the backlog and then added dates to each item. It ended up with 78 items on Trello: infrastructure first, then resident, guard and admin features, and finally integration, wrap-up and deployment work.
 
-*[Write your reflection here.]*
+Looking back, the order followed user type rather than value. The SOS button, the core of the product, was only built in Sprint 4, after account set-up and guard onboarding. That made sense because the app cannot work without accounts, but a thin end-to-end alert flow earlier would have shown us sooner whether the idea worked.
+
+The backlog also changed under us. The infrastructure items assumed a Java Spring Boot backend with MySQL, and in mid-August we moved to Supabase, so those early items no longer matched what we built. I also did not estimate items. Every card was effectively one day of work, which hides the fact that some stories were much bigger than others.
+
+Next time I would prioritise by value and risk, put a minimal working alert flow into the first sprints, add story point estimates, and review and reprioritise the backlog at the start of every sprint.

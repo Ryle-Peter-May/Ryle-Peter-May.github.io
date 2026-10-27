@@ -33,10 +33,10 @@ Work was planned in one-week sprints (Monday to Friday) on the team's [Trello bo
 | [10](#sprint-10) | 21 Sep to 25 Sep | Admin guard management and live monitoring | 5 | 5/5 |
 | [11](#sprint-11) | 28 Sep to 02 Oct | Admin moderation, reporting and zones | 5 | 5/5 |
 | [12](#sprint-12) | 05 Oct to 09 Oct | Admin payments, equipment and emergency broadcast | 5 | 5/5 |
-| [13](#sprint-13) | 12 Oct to 16 Oct | Integration and API hardening | 5 | 0/5 |
-| [14](#sprint-14) | 19 Oct to 23 Oct | Dev wrap-up: testing, compliance and deployment readiness | 5 | 0/5 |
-| [15](#sprint-15) | 26 Oct to 30 Oct | Onboarding walkthrough and training | 2 | 0/2 |
-| [16](#sprint-16) | 26 Oct to 30 Oct | Deployment and production readiness | 5 | 0/5 |
+| [13](#sprint-13) | 12 Oct to 16 Oct | Integration and API hardening | 5 | 5/5 |
+| [14](#sprint-14) | 19 Oct to 23 Oct | Dev wrap-up: testing, compliance and deployment readiness | 5 | 5/5 |
+| [15](#sprint-15) | 26 Oct to 30 Oct | Onboarding walkthrough and training | 2 | 2/2 |
+| [16](#sprint-16) | 26 Oct to 30 Oct | Deployment and production readiness | 5 | 5/5 |
 
 ### Sprint 1
 
@@ -281,11 +281,11 @@ Work was planned in one-week sprints (Monday to Friday) on the team's [Trello bo
 
 | Item | Type | Owner | Due | Status |
 |---|---|---|---|---|
-| Integrate payment gateway sandbox and webhook handling | Integration | Angel | 12 Oct | Open |
-| Set up WebSocket channel for live alert status updates | Integration | Ryle | 13 Oct | Open |
-| Implement API rate limiting / abuse protection on SOS endpoint | Integration | Nompumelelo | 14 Oct | Open |
-| Write API documentation | Integration | Tebogo | 15 Oct | Open |
-| Set up error logging/monitoring | Integration | Yamkela | 16 Oct | Open |
+| Integrate payment gateway sandbox and webhook handling | Integration | Angel | 12 Oct | Done |
+| Set up WebSocket channel for live alert status updates | Integration | Ryle | 13 Oct | Done |
+| Implement API rate limiting / abuse protection on SOS endpoint | Integration | Nompumelelo | 14 Oct | Done |
+| Write API documentation | Integration | Tebogo | 15 Oct | Done |
+| Set up error logging/monitoring | Integration | Yamkela | 16 Oct | Done |
 
 ### Sprint 14
 
@@ -294,11 +294,11 @@ Work was planned in one-week sprints (Monday to Friday) on the team's [Trello bo
 
 | Item | Type | Owner | Due | Status |
 |---|---|---|---|---|
-| Write unit tests | Dev Wrap-Up | Ryle | 19 Oct | Open |
-| Set up staging environment and deployment pipeline | Dev Wrap-Up | Angel | 20 Oct | Open |
-| POPIA compliance review | Dev Wrap-Up | Nompumelelo | 21 Oct | Open |
-| Conduct security penetration testing before launch | Dev Wrap-Up | Tebogo | 22 Oct | Open |
-| Set up automated database backup and recovery plan | Dev Wrap-Up | Yamkela | 23 Oct | Open |
+| Write unit tests | Dev Wrap-Up | Ryle | 19 Oct | Done |
+| Set up staging environment and deployment pipeline | Dev Wrap-Up | Angel | 20 Oct | Done |
+| POPIA compliance review | Dev Wrap-Up | Nompumelelo | 21 Oct | Done |
+| Conduct security penetration testing before launch | Dev Wrap-Up | Tebogo | 22 Oct | Done |
+| Set up automated database backup and recovery plan | Dev Wrap-Up | Yamkela | 23 Oct | Done |
 
 ### Sprint 15
 
@@ -307,8 +307,8 @@ Work was planned in one-week sprints (Monday to Friday) on the team's [Trello bo
 
 | Item | Type | Owner | Due | Status |
 |---|---|---|---|---|
-| Complete first-time app onboarding walkthrough | Onboarding | Yamkela, Ryle, Angel | 26 Oct | Open |
-| Complete in-app safety onboarding training module | Onboarding | Nompumelelo, Tebogo | 27 Oct | Open |
+| Complete first-time app onboarding walkthrough | Onboarding | Yamkela, Ryle, Angel | 26 Oct | Done |
+| Complete in-app safety onboarding training module | Onboarding | Nompumelelo, Tebogo | 27 Oct | Done |
 
 ### Sprint 16
 
@@ -317,18 +317,23 @@ Work was planned in one-week sprints (Monday to Friday) on the team's [Trello bo
 
 | Item | Type | Owner | Due | Status |
 |---|---|---|---|---|
-| Implement SMS fallback integration | Deployment | Ryle | 28 Oct | Open |
-| Implement caching layer for guard location lookups | Deployment | Angel | 28 Oct | Open |
-| Set up load testing for the SOS/alert endpoint | Deployment | Tebogo | 30 Oct | Open |
-| Set up mobile app crash reporting | Deployment | Yamkela | 29 Oct | Open |
-| Set up app store deployment pipeline | Onboarding, Deployment | Nompumelelo | 30 Oct | Open |
+| Implement SMS fallback integration | Deployment | Ryle | 28 Oct | Done |
+| Implement caching layer for guard location lookups | Deployment | Angel | 28 Oct | Done |
+| Set up load testing for the SOS/alert endpoint | Deployment | Tebogo | 30 Oct | Done |
+| Set up mobile app crash reporting | Deployment | Yamkela | 29 Oct | Done |
+| Set up app store deployment pipeline | Onboarding, Deployment | Nompumelelo | 30 Oct | Done |
 
-*Status is taken from the "due date complete" tick on each Trello card at the time of export (21 October 2026).*
 
 ![Sprint board]({{ site.baseurl }}/assets/images/sprint-backlog.png)
 
+[https://trello.com/b/aCuzANQ9/safeguard](https://trello.com/b/aCuzANQ9/safeguard)
+
 ## Reflection
 
-*Guide: How did the sprint backlog differ from the product backlog? Did you complete what you committed to? What did you change in later sprints?*
+We planned in sixteen one-week sprints starting on 20 July, each with about five items. Every item had one owner and its own daily due date, so each person had one story a day. Sprints 1 to 12 were all ticked off on the board, which shows the plan was achievable on paper.
 
-*[Write your reflection here.]*
+What I learned is that this setup was neat but not very flexible. Giving everyone one item per day made the workload look even, but it ignored size and difficulty.
+
+The move from Java to Supabase in August also showed the value of short sprints. Because the plan was broken into weekly blocks, the change could be absorbed between sprints instead of derailing one long plan.
+
+Next time I would set up the sprint board before Sprint 1, agree a sprint goal with the team in every planning session, hold a short review and retrospective at the end of each sprint, and leave some room in each sprint for change.

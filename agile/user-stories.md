@@ -1,11 +1,11 @@
 ---
-title: User Stories and Tasks
+title: User Stories
 layout: default
 parent: Agile Project
 nav_order: 2
 ---
 
-# User Stories and Tasks
+# User Stories
 {: .no_toc }
 
 <details open markdown="block">
@@ -89,7 +89,7 @@ User stories for **SafeGuard Soshanguve**, grouped by the three types of user: r
 | A-14 | Handle refunds or fee disputes |
 | A-15 | Manage guard equipment inventory |
 
-### Tasks
+<!-- ### Tasks
 
 *Each story breaks down into tasks on the team's Trello board. Add the tasks for the stories you worked on. The table below is a worked example.*
 
@@ -99,10 +99,14 @@ User stories for **SafeGuard Soshanguve**, grouped by the three types of user: r
 | R-07 to R-09 | *[e.g. Build hold-to-confirm logic]* | *[Name]* | *[Status]* |
 | S-08 to S-10 | *[e.g. Build alert acceptance flow]* | *[Name]* | *[Status]* |
 
-![Trello board with user stories]({{ site.baseurl }}/assets/images/trello-user-stories.png)
+![Trello board with user stories]({{ site.baseurl }}/assets/images/trello-user-stories.png) -->
 
 ## Reflection
 
-*Guide: How did you break stories into tasks? Which story was hardest to write or split and why? How did writing from the user's perspective change how you built the feature?*
+Writing the user stories made us think about the app from three points of view: the resident who needs help, the guard who responds, and the admin who keeps the system running. I drafted the first list on 16 and 17 July, and it grew to 55 stories. Each one later became a Trello card, written as "As a ... I want ..." with an owner and a due date.
 
-*[Write your reflection here.]*
+The hardest part was splitting stories into tasks. The home address story had nine tasks while most others had four, so the stories were not the same size, and I only wrote task checklists for the first three sprints. After that the cards had no tasks, which made later work harder to track.
+
+The user's point of view did change what we built. Stories like holding the SOS button to confirm it, or cancelling a false alarm, came from thinking about a resident in an emergency who might press the button by accident.
+
+Next time I would write the tasks for every story before its sprint starts, review each card for copy and paste errors, and keep technical set-up out of the story list so that the stories stay about what users need.
