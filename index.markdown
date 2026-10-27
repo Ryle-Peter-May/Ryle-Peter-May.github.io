@@ -11,7 +11,7 @@ permalink: /
 Applications Developer
 {: .fs-6 .fw-300 }
 
-📞 +number · ✉️ email · 📍 address · 🔗 [github.com/ryle-198](https://github.com/ryle-198)
+✉️ 230333907@mycput.ac.za · 🔗 [github.com/ryle-198](https://github.com/ryle-198)
 
 [View my projects]({{ site.baseurl }}/projects/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Agile project evidence]({{ site.baseurl }}/agile/){: .btn .fs-5 .mb-4 .mb-md-0 }
