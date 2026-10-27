@@ -13,7 +13,7 @@ This section documents the project I worked on over the last six months.
 ## Project overview
 
 
-|---|---|
+
 | **Project name** | SAFEGUARD |
 | **Duration** | *July – October 2026* |
 | **Team size** | *5* members |
